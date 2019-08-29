@@ -1,2 +1,2 @@
 # IFBA-SAA
-Projeto Software Assistência Assistiva
+Projeto Software Auxiliar Assistivo
