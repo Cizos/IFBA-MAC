@@ -37,6 +37,7 @@ namespace SAA
             telaBandeja = tb;
         }
 
+       
         private void TelaPrincipal_Load(object sender, EventArgs e)
         {
             //service = new MACMonitorService(); //somente para testes, depois tirar a referencia
@@ -238,7 +239,7 @@ namespace SAA
         private void BotaoFechar_Click(object sender, EventArgs e)
         {
             //TODO: Arrumar aqui o uso do botao de fechar da janela principal
-            this.Dispose();
+            this.Hide();
         }
 
         private void BotaoMenu_Click(object sender, EventArgs e)

@@ -34,13 +34,6 @@
             this.labelTextoRodape = new System.Windows.Forms.Label();
             this.openFileDialogAddApp = new System.Windows.Forms.OpenFileDialog();
             this.tableLayoutPanelApps = new System.Windows.Forms.TableLayoutPanel();
-            this.splitContainerVApps = new System.Windows.Forms.SplitContainer();
-            this.splitContainerVMenu = new System.Windows.Forms.SplitContainer();
-            this.splitContainerHMenuApp = new System.Windows.Forms.SplitContainer();
-            this.splitContainerHFundo = new System.Windows.Forms.SplitContainer();
-            this.botaoFechar = new System.Windows.Forms.Button();
-            this.botaoMenu = new System.Windows.Forms.Button();
-            this.botaoAddApp = new System.Windows.Forms.Button();
             this.botao8 = new System.Windows.Forms.Button();
             this.botao7 = new System.Windows.Forms.Button();
             this.botao6 = new System.Windows.Forms.Button();
@@ -49,6 +42,13 @@
             this.botao3 = new System.Windows.Forms.Button();
             this.botao2 = new System.Windows.Forms.Button();
             this.botao1 = new System.Windows.Forms.Button();
+            this.splitContainerVApps = new System.Windows.Forms.SplitContainer();
+            this.botaoAddApp = new System.Windows.Forms.Button();
+            this.splitContainerVMenu = new System.Windows.Forms.SplitContainer();
+            this.botaoFechar = new System.Windows.Forms.Button();
+            this.botaoMenu = new System.Windows.Forms.Button();
+            this.splitContainerHMenuApp = new System.Windows.Forms.SplitContainer();
+            this.splitContainerHFundo = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanelApps.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerVApps)).BeginInit();
             this.splitContainerVApps.Panel1.SuspendLayout();
@@ -117,133 +117,6 @@
             this.tableLayoutPanelApps.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanelApps.Size = new System.Drawing.Size(618, 364);
             this.tableLayoutPanelApps.TabIndex = 0;
-            // 
-            // splitContainerVApps
-            // 
-            this.splitContainerVApps.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerVApps.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainerVApps.IsSplitterFixed = true;
-            this.splitContainerVApps.Location = new System.Drawing.Point(0, 0);
-            this.splitContainerVApps.Name = "splitContainerVApps";
-            // 
-            // splitContainerVApps.Panel1
-            // 
-            this.splitContainerVApps.Panel1.Controls.Add(this.botaoAddApp);
-            // 
-            // splitContainerVApps.Panel2
-            // 
-            this.splitContainerVApps.Panel2.Controls.Add(this.tableLayoutPanelApps);
-            this.splitContainerVApps.Size = new System.Drawing.Size(800, 364);
-            this.splitContainerVApps.SplitterDistance = 178;
-            this.splitContainerVApps.TabIndex = 0;
-            // 
-            // splitContainerVMenu
-            // 
-            this.splitContainerVMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerVMenu.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainerVMenu.IsSplitterFixed = true;
-            this.splitContainerVMenu.Location = new System.Drawing.Point(0, 0);
-            this.splitContainerVMenu.Name = "splitContainerVMenu";
-            // 
-            // splitContainerVMenu.Panel1
-            // 
-            this.splitContainerVMenu.Panel1.Controls.Add(this.botaoFechar);
-            // 
-            // splitContainerVMenu.Panel2
-            // 
-            this.splitContainerVMenu.Panel2.Controls.Add(this.botaoMenu);
-            this.splitContainerVMenu.Size = new System.Drawing.Size(800, 45);
-            this.splitContainerVMenu.SplitterDistance = 651;
-            this.splitContainerVMenu.TabIndex = 0;
-            // 
-            // splitContainerHMenuApp
-            // 
-            this.splitContainerHMenuApp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerHMenuApp.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
-            this.splitContainerHMenuApp.IsSplitterFixed = true;
-            this.splitContainerHMenuApp.Location = new System.Drawing.Point(0, 0);
-            this.splitContainerHMenuApp.Name = "splitContainerHMenuApp";
-            this.splitContainerHMenuApp.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainerHMenuApp.Panel1
-            // 
-            this.splitContainerHMenuApp.Panel1.Controls.Add(this.splitContainerVMenu);
-            // 
-            // splitContainerHMenuApp.Panel2
-            // 
-            this.splitContainerHMenuApp.Panel2.Controls.Add(this.splitContainerVApps);
-            this.splitContainerHMenuApp.Size = new System.Drawing.Size(800, 413);
-            this.splitContainerHMenuApp.SplitterDistance = 45;
-            this.splitContainerHMenuApp.TabIndex = 0;
-            // 
-            // splitContainerHFundo
-            // 
-            this.splitContainerHFundo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainerHFundo.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
-            this.splitContainerHFundo.IsSplitterFixed = true;
-            this.splitContainerHFundo.Location = new System.Drawing.Point(0, 0);
-            this.splitContainerHFundo.Name = "splitContainerHFundo";
-            this.splitContainerHFundo.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainerHFundo.Panel1
-            // 
-            this.splitContainerHFundo.Panel1.Controls.Add(this.splitContainerHMenuApp);
-            // 
-            // splitContainerHFundo.Panel2
-            // 
-            this.splitContainerHFundo.Panel2.Controls.Add(this.labelTextoRodape);
-            this.splitContainerHFundo.Size = new System.Drawing.Size(800, 450);
-            this.splitContainerHFundo.SplitterDistance = 413;
-            this.splitContainerHFundo.TabIndex = 1;
-            // 
-            // botaoFechar
-            // 
-            this.botaoFechar.BackColor = System.Drawing.Color.Firebrick;
-            this.botaoFechar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botaoFechar.FlatAppearance.BorderSize = 0;
-            this.botaoFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoFechar.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoFechar.ForeColor = System.Drawing.Color.White;
-            this.botaoFechar.Image = global::SAA.Properties.Resources.baseline_clear_white_24dp;
-            this.botaoFechar.Location = new System.Drawing.Point(0, 0);
-            this.botaoFechar.Name = "botaoFechar";
-            this.botaoFechar.Size = new System.Drawing.Size(651, 45);
-            this.botaoFechar.TabIndex = 0;
-            this.botaoFechar.UseVisualStyleBackColor = false;
-            this.botaoFechar.Click += new System.EventHandler(this.BotaoFechar_Click);
-            // 
-            // botaoMenu
-            // 
-            this.botaoMenu.BackColor = System.Drawing.Color.RoyalBlue;
-            this.botaoMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botaoMenu.FlatAppearance.BorderSize = 0;
-            this.botaoMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoMenu.Image = global::SAA.Properties.Resources.baseline_widgets_white_24dp1;
-            this.botaoMenu.Location = new System.Drawing.Point(0, 0);
-            this.botaoMenu.Name = "botaoMenu";
-            this.botaoMenu.Size = new System.Drawing.Size(145, 45);
-            this.botaoMenu.TabIndex = 0;
-            this.botaoMenu.UseVisualStyleBackColor = false;
-            this.botaoMenu.Click += new System.EventHandler(this.BotaoMenu_Click);
-            // 
-            // botaoAddApp
-            // 
-            this.botaoAddApp.BackColor = System.Drawing.SystemColors.Control;
-            this.botaoAddApp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botaoAddApp.FlatAppearance.BorderSize = 0;
-            this.botaoAddApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoAddApp.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoAddApp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoAddApp.Image = global::SAA.Properties.Resources.outline_add_box_black_48dp;
-            this.botaoAddApp.Location = new System.Drawing.Point(0, 0);
-            this.botaoAddApp.Name = "botaoAddApp";
-            this.botaoAddApp.Size = new System.Drawing.Size(178, 364);
-            this.botaoAddApp.TabIndex = 0;
-            this.botaoAddApp.Text = "Add";
-            this.botaoAddApp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botaoAddApp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botaoAddApp.UseVisualStyleBackColor = false;
-            this.botaoAddApp.Click += new System.EventHandler(this.BotaoAddApp_Click);
             // 
             // botao8
             // 
@@ -372,6 +245,133 @@
             this.botao1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.botao1.UseVisualStyleBackColor = true;
             this.botao1.Click += new System.EventHandler(this.Botao1_Click);
+            // 
+            // splitContainerVApps
+            // 
+            this.splitContainerVApps.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerVApps.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainerVApps.IsSplitterFixed = true;
+            this.splitContainerVApps.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerVApps.Name = "splitContainerVApps";
+            // 
+            // splitContainerVApps.Panel1
+            // 
+            this.splitContainerVApps.Panel1.Controls.Add(this.botaoAddApp);
+            // 
+            // splitContainerVApps.Panel2
+            // 
+            this.splitContainerVApps.Panel2.Controls.Add(this.tableLayoutPanelApps);
+            this.splitContainerVApps.Size = new System.Drawing.Size(800, 364);
+            this.splitContainerVApps.SplitterDistance = 178;
+            this.splitContainerVApps.TabIndex = 0;
+            // 
+            // botaoAddApp
+            // 
+            this.botaoAddApp.BackColor = System.Drawing.SystemColors.Control;
+            this.botaoAddApp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botaoAddApp.FlatAppearance.BorderSize = 0;
+            this.botaoAddApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoAddApp.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoAddApp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botaoAddApp.Image = global::SAA.Properties.Resources.outline_add_box_black_48dp;
+            this.botaoAddApp.Location = new System.Drawing.Point(0, 0);
+            this.botaoAddApp.Name = "botaoAddApp";
+            this.botaoAddApp.Size = new System.Drawing.Size(178, 364);
+            this.botaoAddApp.TabIndex = 0;
+            this.botaoAddApp.Text = "Add";
+            this.botaoAddApp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botaoAddApp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botaoAddApp.UseVisualStyleBackColor = false;
+            this.botaoAddApp.Click += new System.EventHandler(this.BotaoAddApp_Click);
+            // 
+            // splitContainerVMenu
+            // 
+            this.splitContainerVMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerVMenu.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainerVMenu.IsSplitterFixed = true;
+            this.splitContainerVMenu.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerVMenu.Name = "splitContainerVMenu";
+            // 
+            // splitContainerVMenu.Panel1
+            // 
+            this.splitContainerVMenu.Panel1.Controls.Add(this.botaoFechar);
+            // 
+            // splitContainerVMenu.Panel2
+            // 
+            this.splitContainerVMenu.Panel2.Controls.Add(this.botaoMenu);
+            this.splitContainerVMenu.Size = new System.Drawing.Size(800, 45);
+            this.splitContainerVMenu.SplitterDistance = 651;
+            this.splitContainerVMenu.TabIndex = 0;
+            // 
+            // botaoFechar
+            // 
+            this.botaoFechar.BackColor = System.Drawing.Color.Firebrick;
+            this.botaoFechar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botaoFechar.FlatAppearance.BorderSize = 0;
+            this.botaoFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoFechar.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoFechar.ForeColor = System.Drawing.Color.White;
+            this.botaoFechar.Image = global::SAA.Properties.Resources.baseline_clear_white_24dp;
+            this.botaoFechar.Location = new System.Drawing.Point(0, 0);
+            this.botaoFechar.Name = "botaoFechar";
+            this.botaoFechar.Size = new System.Drawing.Size(651, 45);
+            this.botaoFechar.TabIndex = 0;
+            this.botaoFechar.UseVisualStyleBackColor = false;
+            this.botaoFechar.Click += new System.EventHandler(this.BotaoFechar_Click);
+            // 
+            // botaoMenu
+            // 
+            this.botaoMenu.BackColor = System.Drawing.Color.RoyalBlue;
+            this.botaoMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botaoMenu.FlatAppearance.BorderSize = 0;
+            this.botaoMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoMenu.Image = global::SAA.Properties.Resources.baseline_widgets_white_24dp1;
+            this.botaoMenu.Location = new System.Drawing.Point(0, 0);
+            this.botaoMenu.Name = "botaoMenu";
+            this.botaoMenu.Size = new System.Drawing.Size(145, 45);
+            this.botaoMenu.TabIndex = 0;
+            this.botaoMenu.UseVisualStyleBackColor = false;
+            this.botaoMenu.Click += new System.EventHandler(this.BotaoMenu_Click);
+            // 
+            // splitContainerHMenuApp
+            // 
+            this.splitContainerHMenuApp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerHMenuApp.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainerHMenuApp.IsSplitterFixed = true;
+            this.splitContainerHMenuApp.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerHMenuApp.Name = "splitContainerHMenuApp";
+            this.splitContainerHMenuApp.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainerHMenuApp.Panel1
+            // 
+            this.splitContainerHMenuApp.Panel1.Controls.Add(this.splitContainerVMenu);
+            // 
+            // splitContainerHMenuApp.Panel2
+            // 
+            this.splitContainerHMenuApp.Panel2.Controls.Add(this.splitContainerVApps);
+            this.splitContainerHMenuApp.Size = new System.Drawing.Size(800, 413);
+            this.splitContainerHMenuApp.SplitterDistance = 45;
+            this.splitContainerHMenuApp.TabIndex = 0;
+            // 
+            // splitContainerHFundo
+            // 
+            this.splitContainerHFundo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerHFundo.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.splitContainerHFundo.IsSplitterFixed = true;
+            this.splitContainerHFundo.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerHFundo.Name = "splitContainerHFundo";
+            this.splitContainerHFundo.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainerHFundo.Panel1
+            // 
+            this.splitContainerHFundo.Panel1.Controls.Add(this.splitContainerHMenuApp);
+            // 
+            // splitContainerHFundo.Panel2
+            // 
+            this.splitContainerHFundo.Panel2.Controls.Add(this.labelTextoRodape);
+            this.splitContainerHFundo.Size = new System.Drawing.Size(800, 450);
+            this.splitContainerHFundo.SplitterDistance = 413;
+            this.splitContainerHFundo.TabIndex = 1;
             // 
             // TelaPrincipal
             // 

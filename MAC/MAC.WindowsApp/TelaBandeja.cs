@@ -1,5 +1,4 @@
-﻿using SAA.Dominio;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,6 +12,7 @@ using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 using MaterialSkin;
 using SAA.Properties;
+using SAA.Dominio;
 
 namespace SAA
 {
@@ -66,8 +66,15 @@ namespace SAA
         {
             if (MouseHook.t.Seconds >= _temp)
             {
-                telaPrincipal = new TelaPrincipal(this);
-                telaPrincipal.Show();
+                if (telaPrincipal == null)
+                {
+                    telaPrincipal = new TelaPrincipal(this);
+                    telaPrincipal.Show();
+                }
+                else
+                {
+                    telaPrincipal.Show();
+                }
             }
         }
 
