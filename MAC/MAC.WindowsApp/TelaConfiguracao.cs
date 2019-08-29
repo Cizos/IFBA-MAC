@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace MAC.WindowsApp
+namespace SAA
 {
     public partial class TelaConfiguracao : Form
     {

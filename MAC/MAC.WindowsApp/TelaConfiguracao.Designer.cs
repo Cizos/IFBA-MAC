@@ -1,4 +1,4 @@
-﻿namespace MAC.WindowsApp
+﻿namespace SAA
 {
     partial class TelaConfiguracao
     {
@@ -33,21 +33,12 @@
             this.toolStripStatusLabelInfo = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.splitContainerHPrincipal = new System.Windows.Forms.SplitContainer();
-            this.buttonFechar = new System.Windows.Forms.Button();
             this.splitContainerVSecundario = new System.Windows.Forms.SplitContainer();
             this.groupBoxAtalhos = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanelApps = new System.Windows.Forms.TableLayoutPanel();
             this.labelDadosApp = new System.Windows.Forms.Label();
             this.labelSituacaoSlot = new System.Windows.Forms.Label();
             this.labelAcoes = new System.Windows.Forms.Label();
-            this.pictureBoxApp1 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp2 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp3 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp4 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp5 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp6 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp7 = new System.Windows.Forms.PictureBox();
-            this.pictureBoxApp8 = new System.Windows.Forms.PictureBox();
             this.buttonApp1 = new System.Windows.Forms.Button();
             this.buttonApp2 = new System.Windows.Forms.Button();
             this.buttonApp3 = new System.Windows.Forms.Button();
@@ -75,6 +66,15 @@
             this.groupBoxConfig = new System.Windows.Forms.GroupBox();
             this.panelConfig2 = new System.Windows.Forms.Panel();
             this.labelConfigSlotTamanho = new System.Windows.Forms.Label();
+            this.buttonFechar = new System.Windows.Forms.Button();
+            this.pictureBoxApp1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp2 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp4 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp5 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp6 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp7 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxApp8 = new System.Windows.Forms.PictureBox();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerHPrincipal)).BeginInit();
             this.splitContainerHPrincipal.Panel1.SuspendLayout();
@@ -86,6 +86,8 @@
             this.splitContainerVSecundario.SuspendLayout();
             this.groupBoxAtalhos.SuspendLayout();
             this.tableLayoutPanelApps.SuspendLayout();
+            this.groupBoxConfig.SuspendLayout();
+            this.panelConfig2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp3)).BeginInit();
@@ -94,8 +96,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp8)).BeginInit();
-            this.groupBoxConfig.SuspendLayout();
-            this.panelConfig2.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -142,23 +142,6 @@
             this.splitContainerHPrincipal.Size = new System.Drawing.Size(800, 467);
             this.splitContainerHPrincipal.SplitterDistance = 70;
             this.splitContainerHPrincipal.TabIndex = 1;
-            // 
-            // buttonFechar
-            // 
-            this.buttonFechar.BackColor = System.Drawing.Color.Firebrick;
-            this.buttonFechar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonFechar.FlatAppearance.BorderSize = 0;
-            this.buttonFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFechar.ForeColor = System.Drawing.Color.White;
-            this.buttonFechar.Image = global::MAC.WindowsApp.Properties.Resources.baseline_clear_white_36dp;
-            this.buttonFechar.Location = new System.Drawing.Point(0, 0);
-            this.buttonFechar.Name = "buttonFechar";
-            this.buttonFechar.Size = new System.Drawing.Size(800, 70);
-            this.buttonFechar.TabIndex = 1;
-            this.buttonFechar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.buttonFechar.UseVisualStyleBackColor = false;
-            this.buttonFechar.Click += new System.EventHandler(this.ButtonFechar_Click);
             // 
             // splitContainerVSecundario
             // 
@@ -277,94 +260,6 @@
             this.labelAcoes.TabIndex = 2;
             this.labelAcoes.Text = "Ações";
             this.labelAcoes.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // pictureBoxApp1
-            // 
-            this.pictureBoxApp1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp1.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp1.Location = new System.Drawing.Point(3, 44);
-            this.pictureBoxApp1.Name = "pictureBoxApp1";
-            this.pictureBoxApp1.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp1.TabIndex = 3;
-            this.pictureBoxApp1.TabStop = false;
-            // 
-            // pictureBoxApp2
-            // 
-            this.pictureBoxApp2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp2.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp2.Location = new System.Drawing.Point(3, 85);
-            this.pictureBoxApp2.Name = "pictureBoxApp2";
-            this.pictureBoxApp2.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp2.TabIndex = 4;
-            this.pictureBoxApp2.TabStop = false;
-            // 
-            // pictureBoxApp3
-            // 
-            this.pictureBoxApp3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp3.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp3.Location = new System.Drawing.Point(3, 126);
-            this.pictureBoxApp3.Name = "pictureBoxApp3";
-            this.pictureBoxApp3.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp3.TabIndex = 5;
-            this.pictureBoxApp3.TabStop = false;
-            // 
-            // pictureBoxApp4
-            // 
-            this.pictureBoxApp4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp4.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp4.Location = new System.Drawing.Point(3, 167);
-            this.pictureBoxApp4.Name = "pictureBoxApp4";
-            this.pictureBoxApp4.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp4.TabIndex = 6;
-            this.pictureBoxApp4.TabStop = false;
-            // 
-            // pictureBoxApp5
-            // 
-            this.pictureBoxApp5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp5.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp5.Location = new System.Drawing.Point(3, 208);
-            this.pictureBoxApp5.Name = "pictureBoxApp5";
-            this.pictureBoxApp5.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp5.TabIndex = 7;
-            this.pictureBoxApp5.TabStop = false;
-            // 
-            // pictureBoxApp6
-            // 
-            this.pictureBoxApp6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp6.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp6.Location = new System.Drawing.Point(3, 249);
-            this.pictureBoxApp6.Name = "pictureBoxApp6";
-            this.pictureBoxApp6.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp6.TabIndex = 8;
-            this.pictureBoxApp6.TabStop = false;
-            // 
-            // pictureBoxApp7
-            // 
-            this.pictureBoxApp7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp7.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp7.Location = new System.Drawing.Point(3, 290);
-            this.pictureBoxApp7.Name = "pictureBoxApp7";
-            this.pictureBoxApp7.Size = new System.Drawing.Size(89, 35);
-            this.pictureBoxApp7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp7.TabIndex = 9;
-            this.pictureBoxApp7.TabStop = false;
-            // 
-            // pictureBoxApp8
-            // 
-            this.pictureBoxApp8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxApp8.Image = global::MAC.WindowsApp.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
-            this.pictureBoxApp8.Location = new System.Drawing.Point(3, 331);
-            this.pictureBoxApp8.Name = "pictureBoxApp8";
-            this.pictureBoxApp8.Size = new System.Drawing.Size(89, 38);
-            this.pictureBoxApp8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxApp8.TabIndex = 10;
-            this.pictureBoxApp8.TabStop = false;
             // 
             // buttonApp1
             // 
@@ -709,6 +604,111 @@
     " mais atalhos é necessário que você volte a tela inicial para fazê-lo.";
             this.labelConfigSlotTamanho.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // buttonFechar
+            // 
+            this.buttonFechar.BackColor = System.Drawing.Color.Firebrick;
+            this.buttonFechar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonFechar.FlatAppearance.BorderSize = 0;
+            this.buttonFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFechar.ForeColor = System.Drawing.Color.White;
+            this.buttonFechar.Image = global::SAA.Properties.Resources.baseline_clear_white_36dp;
+            this.buttonFechar.Location = new System.Drawing.Point(0, 0);
+            this.buttonFechar.Name = "buttonFechar";
+            this.buttonFechar.Size = new System.Drawing.Size(800, 70);
+            this.buttonFechar.TabIndex = 1;
+            this.buttonFechar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.buttonFechar.UseVisualStyleBackColor = false;
+            this.buttonFechar.Click += new System.EventHandler(this.ButtonFechar_Click);
+            // 
+            // pictureBoxApp1
+            // 
+            this.pictureBoxApp1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp1.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp1.Location = new System.Drawing.Point(3, 44);
+            this.pictureBoxApp1.Name = "pictureBoxApp1";
+            this.pictureBoxApp1.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp1.TabIndex = 3;
+            this.pictureBoxApp1.TabStop = false;
+            // 
+            // pictureBoxApp2
+            // 
+            this.pictureBoxApp2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp2.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp2.Location = new System.Drawing.Point(3, 85);
+            this.pictureBoxApp2.Name = "pictureBoxApp2";
+            this.pictureBoxApp2.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp2.TabIndex = 4;
+            this.pictureBoxApp2.TabStop = false;
+            // 
+            // pictureBoxApp3
+            // 
+            this.pictureBoxApp3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp3.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp3.Location = new System.Drawing.Point(3, 126);
+            this.pictureBoxApp3.Name = "pictureBoxApp3";
+            this.pictureBoxApp3.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp3.TabIndex = 5;
+            this.pictureBoxApp3.TabStop = false;
+            // 
+            // pictureBoxApp4
+            // 
+            this.pictureBoxApp4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp4.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp4.Location = new System.Drawing.Point(3, 167);
+            this.pictureBoxApp4.Name = "pictureBoxApp4";
+            this.pictureBoxApp4.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp4.TabIndex = 6;
+            this.pictureBoxApp4.TabStop = false;
+            // 
+            // pictureBoxApp5
+            // 
+            this.pictureBoxApp5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp5.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp5.Location = new System.Drawing.Point(3, 208);
+            this.pictureBoxApp5.Name = "pictureBoxApp5";
+            this.pictureBoxApp5.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp5.TabIndex = 7;
+            this.pictureBoxApp5.TabStop = false;
+            // 
+            // pictureBoxApp6
+            // 
+            this.pictureBoxApp6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp6.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp6.Location = new System.Drawing.Point(3, 249);
+            this.pictureBoxApp6.Name = "pictureBoxApp6";
+            this.pictureBoxApp6.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp6.TabIndex = 8;
+            this.pictureBoxApp6.TabStop = false;
+            // 
+            // pictureBoxApp7
+            // 
+            this.pictureBoxApp7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp7.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp7.Location = new System.Drawing.Point(3, 290);
+            this.pictureBoxApp7.Name = "pictureBoxApp7";
+            this.pictureBoxApp7.Size = new System.Drawing.Size(89, 35);
+            this.pictureBoxApp7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp7.TabIndex = 9;
+            this.pictureBoxApp7.TabStop = false;
+            // 
+            // pictureBoxApp8
+            // 
+            this.pictureBoxApp8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxApp8.Image = global::SAA.Properties.Resources.baseline_panorama_fish_eye_black_48dp;
+            this.pictureBoxApp8.Location = new System.Drawing.Point(3, 331);
+            this.pictureBoxApp8.Name = "pictureBoxApp8";
+            this.pictureBoxApp8.Size = new System.Drawing.Size(89, 38);
+            this.pictureBoxApp8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxApp8.TabIndex = 10;
+            this.pictureBoxApp8.TabStop = false;
+            // 
             // TelaConfiguracao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -722,7 +722,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaConfiguracao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Tela Configurações - MAC";
+            this.Text = "Tela Configurações - SAA";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.TelaConfiguracao_FormClosing);
             this.Load += new System.EventHandler(this.TelaConfiguracao_Load);
@@ -738,6 +738,8 @@
             this.splitContainerVSecundario.ResumeLayout(false);
             this.groupBoxAtalhos.ResumeLayout(false);
             this.tableLayoutPanelApps.ResumeLayout(false);
+            this.groupBoxConfig.ResumeLayout(false);
+            this.panelConfig2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp3)).EndInit();
@@ -746,8 +748,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxApp8)).EndInit();
-            this.groupBoxConfig.ResumeLayout(false);
-            this.panelConfig2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

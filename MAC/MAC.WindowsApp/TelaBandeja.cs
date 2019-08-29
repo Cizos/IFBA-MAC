@@ -1,4 +1,4 @@
-﻿using MAC.Dominio;
+﻿using SAA.Dominio;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
@@ -12,9 +12,9 @@ using System.Windows.Forms;
 using MaterialSkin.Animations;
 using MaterialSkin.Controls;
 using MaterialSkin;
-using MAC.WindowsApp.Properties;
+using SAA.Properties;
 
-namespace MAC.WindowsApp
+namespace SAA
 {
     public partial class TelaBandeja : MaterialForm
     {
@@ -52,7 +52,7 @@ namespace MAC.WindowsApp
                 SetStartup(false);
             }
             this.WindowState = FormWindowState.Minimized;
-            this.notifyIconBandeja.BalloonTipText = "O MAC ja está monitorando o seu mouse.";
+            this.notifyIconBandeja.BalloonTipText = "O SAA ja está monitorando o seu mouse.";
             this.notifyIconBandeja.ShowBalloonTip(3000);
 
             this.textBoxTempo.TextChanged += new EventHandler(LiberaSave);
@@ -96,7 +96,7 @@ namespace MAC.WindowsApp
             config.Save(ConfigurationSaveMode.Modified);
             ConfigurationManager.RefreshSection("appSettings");
             this.materialFlatButtonSalvar.Enabled = false;
-            this.labelAviso.Text = "Você precisa reiniciar o MAC para que as alterações tenham efeito.";
+            this.labelAviso.Text = "Você precisa reiniciar o SAA para que as alterações tenham efeito.";
             this.labelAviso.Enabled = true;
             this.labelAviso.Visible = true;
         }
@@ -128,7 +128,7 @@ namespace MAC.WindowsApp
             try
             {
                 //Nome a ser exibido no registro ou quando Der MSCONFIG
-                string appName = "Mouse Além da Cabeça";
+                string appName = "Software Auxiliar Assistivo";
 
                 //Diretorio da chave do Registro NAO ALTERAR
                 string runKey = @"SOFTWARE\Microsoft\Windows\CurrentVersion\Run";

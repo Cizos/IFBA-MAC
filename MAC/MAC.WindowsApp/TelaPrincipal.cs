@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 
-namespace MAC.WindowsApp
+namespace SAA
 {
     public partial class TelaPrincipal : Form
     {
@@ -43,14 +43,14 @@ namespace MAC.WindowsApp
             
             CriaDiretorios();
 
-            if (!System.IO.File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\MAC\\configuracoes\\UserConfig.xml"))
+            if (!System.IO.File.Exists(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SAA\\configuracoes\\UserConfig.xml"))
             {
                 NovoDataSet();
             }
             else
             {
                 dataSet = new DataSet();
-                dataSet.ReadXml(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\MAC\\configuracoes\\UserConfig.xml");
+                dataSet.ReadXml(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SAA\\configuracoes\\UserConfig.xml");
             }
             PreencherTabela();
         }
@@ -78,7 +78,7 @@ namespace MAC.WindowsApp
             dataSet.DataSetName = "AtalhosApps";
             dataSet.Tables.Add(dataTable);
 
-            dataSet.WriteXml(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\MAC\\configuracoes\\UserConfig.xml");
+            dataSet.WriteXml(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SAA\\configuracoes\\UserConfig.xml");
         }
 
         private void BotaoAddApp_Click(object sender, EventArgs e)
@@ -107,7 +107,7 @@ namespace MAC.WindowsApp
 
                                 dataSet.Tables[0].AcceptChanges();
 
-                                dataSet.WriteXml(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\MAC\\configuracoes\\UserConfig.xml");
+                                dataSet.WriteXml(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData) + "\\SAA\\configuracoes\\UserConfig.xml");
 
 
                                 PreencherTabela();
@@ -439,12 +439,12 @@ namespace MAC.WindowsApp
         {
             caminho = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
-            if (!Directory.Exists(@caminho + "\\MAC"))
+            if (!Directory.Exists(@caminho + "\\SAA"))
             {
-                Directory.CreateDirectory(@caminho + "\\MAC");
-                Directory.CreateDirectory(@caminho + "\\MAC\\configuracoes");
-                Directory.CreateDirectory(@caminho + "\\MAC\\icons");
-                Directory.CreateDirectory(@caminho + "\\MAC\\logs");
+                Directory.CreateDirectory(@caminho + "\\SAA");
+                Directory.CreateDirectory(@caminho + "\\SAA\\configuracoes");
+                Directory.CreateDirectory(@caminho + "\\SAA\\icons");
+                Directory.CreateDirectory(@caminho + "\\SAA\\logs");
             }
         }
 

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MAC.Dominio
+namespace SAA.Dominio
 {
     public static class MouseHook
     {

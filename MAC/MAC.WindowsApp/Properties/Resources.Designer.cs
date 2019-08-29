@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MAC.WindowsApp.Properties {
+namespace SAA.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace MAC.WindowsApp.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("MAC.WindowsApp.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SAA.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -216,6 +216,26 @@ namespace MAC.WindowsApp.Properties {
         internal static System.Drawing.Bitmap baseline_widgets_white_24dp1 {
             get {
                 object obj = ResourceManager.GetObject("baseline_widgets_white_24dp1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap íconeacessibilidade {
+            get {
+                object obj = ResourceManager.GetObject("íconeacessibilidade", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap íconeacessibilidade_2 {
+            get {
+                object obj = ResourceManager.GetObject("íconeacessibilidade 2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

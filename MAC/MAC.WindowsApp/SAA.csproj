@@ -6,12 +6,13 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{0BEA1811-511B-4089-ADC4-E44905561D0F}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MAC.WindowsApp</RootNamespace>
-    <AssemblyName>MAC.WindowsApp</AssemblyName>
+    <RootNamespace>SAA</RootNamespace>
+    <AssemblyName>SAA</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,10 +24,9 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>3.0.333.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -48,6 +48,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>íconeacessibilidade-2.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialSkin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -173,9 +176,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MAC.Dominio\MAC.Dominio.csproj">
+    <ProjectReference Include="..\MAC.Dominio\SAA.Dominio.csproj">
       <Project>{f94ad9d4-496c-4c3f-b99c-7e29267dedd1}</Project>
-      <Name>MAC.Dominio</Name>
+      <Name>SAA.Dominio</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -210,6 +213,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\grid_pixel_icon_123662.ico" />
+    <Content Include="íconeacessibilidade-2.ico" />
+    <None Include="Resources\íconeacessibilidade.png" />
+    <None Include="Resources\íconeacessibilidade 2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

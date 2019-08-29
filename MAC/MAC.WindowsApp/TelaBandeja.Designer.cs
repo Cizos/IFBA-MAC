@@ -1,4 +1,4 @@
-﻿namespace MAC.WindowsApp
+﻿namespace SAA
 {
     partial class TelaBandeja
     {
@@ -32,28 +32,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaBandeja));
             this.panelSuperior = new System.Windows.Forms.Panel();
             this.labelMAC = new System.Windows.Forms.Label();
-            this.pictureBoxIconeApp = new System.Windows.Forms.PictureBox();
-            this.buttonFechar = new System.Windows.Forms.Button();
             this.materialTabSelectorOpcoes = new MaterialSkin.Controls.MaterialTabSelector();
             this.materialTabControlOpcoes = new MaterialSkin.Controls.MaterialTabControl();
             this.tabPageTempo = new System.Windows.Forms.TabPage();
             this.splitContainerTempo = new System.Windows.Forms.SplitContainer();
-            this.pictureBoxTempo = new System.Windows.Forms.PictureBox();
             this.textBoxTempo = new System.Windows.Forms.TextBox();
             this.materialLabelTempoInfo = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabelTextoTempo = new MaterialSkin.Controls.MaterialLabel();
             this.tabPageSlots = new System.Windows.Forms.TabPage();
             this.splitContainerSlots = new System.Windows.Forms.SplitContainer();
-            this.pictureBoxSlots = new System.Windows.Forms.PictureBox();
             this.materialLabelSlots = new MaterialSkin.Controls.MaterialLabel();
             this.tabPageInicio = new System.Windows.Forms.TabPage();
             this.splitContainerInicioWindows = new System.Windows.Forms.SplitContainer();
-            this.pictureBoxInicioWindows = new System.Windows.Forms.PictureBox();
             this.materialCheckBoxStartWindows = new MaterialSkin.Controls.MaterialCheckBox();
             this.materialLabelInicioWindows = new MaterialSkin.Controls.MaterialLabel();
             this.tabPageAboutUs = new System.Windows.Forms.TabPage();
             this.splitContainerAboutUs = new System.Windows.Forms.SplitContainer();
-            this.pictureBoxAboutUs = new System.Windows.Forms.PictureBox();
             this.materialLabelAboutUs = new MaterialSkin.Controls.MaterialLabel();
             this.materialFlatButtonSalvar = new MaterialSkin.Controls.MaterialFlatButton();
             this.panelBaixo = new System.Windows.Forms.Panel();
@@ -63,35 +57,41 @@
             this.toolStripMenuItemMostrar = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItemFechar = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBoxTempo = new System.Windows.Forms.PictureBox();
+            this.pictureBoxSlots = new System.Windows.Forms.PictureBox();
+            this.pictureBoxInicioWindows = new System.Windows.Forms.PictureBox();
+            this.pictureBoxAboutUs = new System.Windows.Forms.PictureBox();
+            this.pictureBoxIconeApp = new System.Windows.Forms.PictureBox();
+            this.buttonFechar = new System.Windows.Forms.Button();
             this.panelSuperior.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIconeApp)).BeginInit();
             this.materialTabControlOpcoes.SuspendLayout();
             this.tabPageTempo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerTempo)).BeginInit();
             this.splitContainerTempo.Panel1.SuspendLayout();
             this.splitContainerTempo.Panel2.SuspendLayout();
             this.splitContainerTempo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTempo)).BeginInit();
             this.tabPageSlots.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerSlots)).BeginInit();
             this.splitContainerSlots.Panel1.SuspendLayout();
             this.splitContainerSlots.Panel2.SuspendLayout();
             this.splitContainerSlots.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSlots)).BeginInit();
             this.tabPageInicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerInicioWindows)).BeginInit();
             this.splitContainerInicioWindows.Panel1.SuspendLayout();
             this.splitContainerInicioWindows.Panel2.SuspendLayout();
             this.splitContainerInicioWindows.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInicioWindows)).BeginInit();
             this.tabPageAboutUs.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerAboutUs)).BeginInit();
             this.splitContainerAboutUs.Panel1.SuspendLayout();
             this.splitContainerAboutUs.Panel2.SuspendLayout();
             this.splitContainerAboutUs.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAboutUs)).BeginInit();
             this.panelBaixo.SuspendLayout();
             this.contextMenuStripBandeja.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTempo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSlots)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInicioWindows)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAboutUs)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIconeApp)).BeginInit();
             this.SuspendLayout();
             // 
             // panelSuperior
@@ -114,33 +114,10 @@
             this.labelMAC.ForeColor = System.Drawing.Color.White;
             this.labelMAC.Location = new System.Drawing.Point(106, 9);
             this.labelMAC.Name = "labelMAC";
-            this.labelMAC.Size = new System.Drawing.Size(537, 56);
+            this.labelMAC.Size = new System.Drawing.Size(537, 84);
             this.labelMAC.TabIndex = 3;
-            this.labelMAC.Text = "Mouse Além da Cabeça ver 3.0\r\nInstituto Federal de Educação, Ciência e Tecnologia" +
-    " da Bahia.\r\n";
-            // 
-            // pictureBoxIconeApp
-            // 
-            this.pictureBoxIconeApp.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBoxIconeApp.Image = global::MAC.WindowsApp.Properties.Resources.baseline_tag_faces_white_48dp;
-            this.pictureBoxIconeApp.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxIconeApp.Name = "pictureBoxIconeApp";
-            this.pictureBoxIconeApp.Size = new System.Drawing.Size(100, 108);
-            this.pictureBoxIconeApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxIconeApp.TabIndex = 2;
-            this.pictureBoxIconeApp.TabStop = false;
-            // 
-            // buttonFechar
-            // 
-            this.buttonFechar.FlatAppearance.BorderSize = 0;
-            this.buttonFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonFechar.Image = global::MAC.WindowsApp.Properties.Resources.baseline_clear_white_18dp;
-            this.buttonFechar.Location = new System.Drawing.Point(735, 12);
-            this.buttonFechar.Name = "buttonFechar";
-            this.buttonFechar.Size = new System.Drawing.Size(53, 37);
-            this.buttonFechar.TabIndex = 1;
-            this.buttonFechar.UseVisualStyleBackColor = true;
-            this.buttonFechar.Click += new System.EventHandler(this.ButtonFechar_Click);
+            this.labelMAC.Text = "Software Auxiliar Assistivo - SAA\r\nversão 3.0\r\nInstituto Federal de Educação, Ciê" +
+    "ncia e Tecnologia da Bahia.\r\n";
             // 
             // materialTabSelectorOpcoes
             // 
@@ -201,17 +178,6 @@
             this.splitContainerTempo.SplitterDistance = 180;
             this.splitContainerTempo.TabIndex = 0;
             // 
-            // pictureBoxTempo
-            // 
-            this.pictureBoxTempo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxTempo.Image = global::MAC.WindowsApp.Properties.Resources.baseline_alarm_on_black_48dp;
-            this.pictureBoxTempo.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxTempo.Name = "pictureBoxTempo";
-            this.pictureBoxTempo.Size = new System.Drawing.Size(180, 206);
-            this.pictureBoxTempo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBoxTempo.TabIndex = 0;
-            this.pictureBoxTempo.TabStop = false;
-            // 
             // textBoxTempo
             // 
             this.textBoxTempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -225,12 +191,12 @@
             // 
             this.materialLabelTempoInfo.AutoSize = true;
             this.materialLabelTempoInfo.Depth = 0;
-            this.materialLabelTempoInfo.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabelTempoInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabelTempoInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabelTempoInfo.Location = new System.Drawing.Point(138, 171);
             this.materialLabelTempoInfo.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabelTempoInfo.Name = "materialLabelTempoInfo";
-            this.materialLabelTempoInfo.Size = new System.Drawing.Size(171, 24);
+            this.materialLabelTempoInfo.Size = new System.Drawing.Size(172, 24);
             this.materialLabelTempoInfo.TabIndex = 2;
             this.materialLabelTempoInfo.Text = "Tempo (segundos)";
             // 
@@ -238,7 +204,7 @@
             // 
             this.materialLabelTextoTempo.Depth = 0;
             this.materialLabelTextoTempo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.materialLabelTextoTempo.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabelTextoTempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabelTextoTempo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabelTextoTempo.Location = new System.Drawing.Point(0, 0);
             this.materialLabelTextoTempo.MouseState = MaterialSkin.MouseState.HOVER;
@@ -276,22 +242,11 @@
             this.splitContainerSlots.SplitterDistance = 179;
             this.splitContainerSlots.TabIndex = 0;
             // 
-            // pictureBoxSlots
-            // 
-            this.pictureBoxSlots.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxSlots.Image = global::MAC.WindowsApp.Properties.Resources.baseline_input_black_48dp;
-            this.pictureBoxSlots.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxSlots.Name = "pictureBoxSlots";
-            this.pictureBoxSlots.Size = new System.Drawing.Size(179, 206);
-            this.pictureBoxSlots.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBoxSlots.TabIndex = 0;
-            this.pictureBoxSlots.TabStop = false;
-            // 
             // materialLabelSlots
             // 
             this.materialLabelSlots.Depth = 0;
             this.materialLabelSlots.Dock = System.Windows.Forms.DockStyle.Top;
-            this.materialLabelSlots.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabelSlots.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabelSlots.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabelSlots.Location = new System.Drawing.Point(0, 0);
             this.materialLabelSlots.MouseState = MaterialSkin.MouseState.HOVER;
@@ -329,23 +284,12 @@
             this.splitContainerInicioWindows.SplitterDistance = 184;
             this.splitContainerInicioWindows.TabIndex = 0;
             // 
-            // pictureBoxInicioWindows
-            // 
-            this.pictureBoxInicioWindows.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxInicioWindows.Image = global::MAC.WindowsApp.Properties.Resources.baseline_attach_file_black_48dp;
-            this.pictureBoxInicioWindows.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxInicioWindows.Name = "pictureBoxInicioWindows";
-            this.pictureBoxInicioWindows.Size = new System.Drawing.Size(184, 212);
-            this.pictureBoxInicioWindows.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBoxInicioWindows.TabIndex = 0;
-            this.pictureBoxInicioWindows.TabStop = false;
-            // 
             // materialCheckBoxStartWindows
             // 
             this.materialCheckBoxStartWindows.AutoSize = true;
             this.materialCheckBoxStartWindows.Depth = 0;
             this.materialCheckBoxStartWindows.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.materialCheckBoxStartWindows.Font = new System.Drawing.Font("Roboto", 10F);
+            this.materialCheckBoxStartWindows.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.materialCheckBoxStartWindows.Location = new System.Drawing.Point(0, 182);
             this.materialCheckBoxStartWindows.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckBoxStartWindows.MouseLocation = new System.Drawing.Point(-1, -1);
@@ -361,15 +305,16 @@
             // 
             this.materialLabelInicioWindows.Depth = 0;
             this.materialLabelInicioWindows.Dock = System.Windows.Forms.DockStyle.Top;
-            this.materialLabelInicioWindows.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabelInicioWindows.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabelInicioWindows.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabelInicioWindows.Location = new System.Drawing.Point(0, 0);
             this.materialLabelInicioWindows.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabelInicioWindows.Name = "materialLabelInicioWindows";
             this.materialLabelInicioWindows.Size = new System.Drawing.Size(604, 154);
             this.materialLabelInicioWindows.TabIndex = 0;
-            this.materialLabelInicioWindows.Text = "O Mouse Além da Cabeça é inicialmente configurado para iniciar junto com o Window" +
-    "s, mas você poderá modificar essa configuração desmarcando a caixa abaixo.";
+            this.materialLabelInicioWindows.Text = "O Software Auxiliar Assistivo é inicialmente configurado para iniciar junto com o" +
+    " Windows, mas você poderá modificar essa configuração desmarcando a caixa abaixo" +
+    ".";
             this.materialLabelInicioWindows.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // tabPageAboutUs
@@ -399,29 +344,18 @@
             this.splitContainerAboutUs.SplitterDistance = 205;
             this.splitContainerAboutUs.TabIndex = 0;
             // 
-            // pictureBoxAboutUs
-            // 
-            this.pictureBoxAboutUs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBoxAboutUs.Image = global::MAC.WindowsApp.Properties.Resources.IFBA_0407;
-            this.pictureBoxAboutUs.Location = new System.Drawing.Point(0, 0);
-            this.pictureBoxAboutUs.Name = "pictureBoxAboutUs";
-            this.pictureBoxAboutUs.Size = new System.Drawing.Size(205, 212);
-            this.pictureBoxAboutUs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxAboutUs.TabIndex = 0;
-            this.pictureBoxAboutUs.TabStop = false;
-            // 
             // materialLabelAboutUs
             // 
             this.materialLabelAboutUs.Depth = 0;
             this.materialLabelAboutUs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialLabelAboutUs.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabelAboutUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
             this.materialLabelAboutUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabelAboutUs.Location = new System.Drawing.Point(0, 0);
             this.materialLabelAboutUs.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabelAboutUs.Name = "materialLabelAboutUs";
             this.materialLabelAboutUs.Size = new System.Drawing.Size(583, 212);
             this.materialLabelAboutUs.TabIndex = 0;
-            this.materialLabelAboutUs.Text = resources.GetString("materialLabelAboutUs.Text");
+            this.materialLabelAboutUs.Text = "...";
             this.materialLabelAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // materialFlatButtonSalvar
@@ -466,7 +400,7 @@
             // 
             this.notifyIconBandeja.ContextMenuStrip = this.contextMenuStripBandeja;
             this.notifyIconBandeja.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIconBandeja.Icon")));
-            this.notifyIconBandeja.Text = "MAC";
+            this.notifyIconBandeja.Text = "SAA";
             this.notifyIconBandeja.Visible = true;
             this.notifyIconBandeja.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.NotifyIconBandeja_MouseDoubleClick);
             // 
@@ -501,6 +435,73 @@
             this.toolStripMenuItemFechar.Text = "Fechar";
             this.toolStripMenuItemFechar.Click += new System.EventHandler(this.ToolStripMenuItemFechar_Click);
             // 
+            // pictureBoxTempo
+            // 
+            this.pictureBoxTempo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxTempo.Image = global::SAA.Properties.Resources.baseline_alarm_on_black_48dp;
+            this.pictureBoxTempo.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxTempo.Name = "pictureBoxTempo";
+            this.pictureBoxTempo.Size = new System.Drawing.Size(180, 206);
+            this.pictureBoxTempo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxTempo.TabIndex = 0;
+            this.pictureBoxTempo.TabStop = false;
+            // 
+            // pictureBoxSlots
+            // 
+            this.pictureBoxSlots.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxSlots.Image = global::SAA.Properties.Resources.baseline_input_black_48dp;
+            this.pictureBoxSlots.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxSlots.Name = "pictureBoxSlots";
+            this.pictureBoxSlots.Size = new System.Drawing.Size(179, 206);
+            this.pictureBoxSlots.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxSlots.TabIndex = 0;
+            this.pictureBoxSlots.TabStop = false;
+            // 
+            // pictureBoxInicioWindows
+            // 
+            this.pictureBoxInicioWindows.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxInicioWindows.Image = global::SAA.Properties.Resources.baseline_attach_file_black_48dp;
+            this.pictureBoxInicioWindows.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxInicioWindows.Name = "pictureBoxInicioWindows";
+            this.pictureBoxInicioWindows.Size = new System.Drawing.Size(184, 212);
+            this.pictureBoxInicioWindows.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBoxInicioWindows.TabIndex = 0;
+            this.pictureBoxInicioWindows.TabStop = false;
+            // 
+            // pictureBoxAboutUs
+            // 
+            this.pictureBoxAboutUs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxAboutUs.Image = global::SAA.Properties.Resources.IFBA_0407;
+            this.pictureBoxAboutUs.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxAboutUs.Name = "pictureBoxAboutUs";
+            this.pictureBoxAboutUs.Size = new System.Drawing.Size(205, 212);
+            this.pictureBoxAboutUs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxAboutUs.TabIndex = 0;
+            this.pictureBoxAboutUs.TabStop = false;
+            // 
+            // pictureBoxIconeApp
+            // 
+            this.pictureBoxIconeApp.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBoxIconeApp.Image = global::SAA.Properties.Resources.íconeacessibilidade;
+            this.pictureBoxIconeApp.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxIconeApp.Name = "pictureBoxIconeApp";
+            this.pictureBoxIconeApp.Size = new System.Drawing.Size(100, 108);
+            this.pictureBoxIconeApp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxIconeApp.TabIndex = 2;
+            this.pictureBoxIconeApp.TabStop = false;
+            // 
+            // buttonFechar
+            // 
+            this.buttonFechar.FlatAppearance.BorderSize = 0;
+            this.buttonFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonFechar.Image = global::SAA.Properties.Resources.baseline_clear_white_18dp;
+            this.buttonFechar.Location = new System.Drawing.Point(735, 12);
+            this.buttonFechar.Name = "buttonFechar";
+            this.buttonFechar.Size = new System.Drawing.Size(53, 37);
+            this.buttonFechar.TabIndex = 1;
+            this.buttonFechar.UseVisualStyleBackColor = true;
+            this.buttonFechar.Click += new System.EventHandler(this.ButtonFechar_Click);
+            // 
             // TelaBandeja
             // 
             this.AcceptButton = this.materialFlatButtonSalvar;
@@ -517,12 +518,11 @@
             this.ShowInTaskbar = false;
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MAC - Tela Monitoramento";
+            this.Text = "SAA - Tela Monitoramento";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.Load += new System.EventHandler(this.TelaBandeja_Load);
             this.panelSuperior.ResumeLayout(false);
             this.panelSuperior.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIconeApp)).EndInit();
             this.materialTabControlOpcoes.ResumeLayout(false);
             this.tabPageTempo.ResumeLayout(false);
             this.splitContainerTempo.Panel1.ResumeLayout(false);
@@ -530,29 +530,30 @@
             this.splitContainerTempo.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerTempo)).EndInit();
             this.splitContainerTempo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTempo)).EndInit();
             this.tabPageSlots.ResumeLayout(false);
             this.splitContainerSlots.Panel1.ResumeLayout(false);
             this.splitContainerSlots.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerSlots)).EndInit();
             this.splitContainerSlots.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSlots)).EndInit();
             this.tabPageInicio.ResumeLayout(false);
             this.splitContainerInicioWindows.Panel1.ResumeLayout(false);
             this.splitContainerInicioWindows.Panel2.ResumeLayout(false);
             this.splitContainerInicioWindows.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerInicioWindows)).EndInit();
             this.splitContainerInicioWindows.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInicioWindows)).EndInit();
             this.tabPageAboutUs.ResumeLayout(false);
             this.splitContainerAboutUs.Panel1.ResumeLayout(false);
             this.splitContainerAboutUs.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerAboutUs)).EndInit();
             this.splitContainerAboutUs.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAboutUs)).EndInit();
             this.panelBaixo.ResumeLayout(false);
             this.panelBaixo.PerformLayout();
             this.contextMenuStripBandeja.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTempo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSlots)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxInicioWindows)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAboutUs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIconeApp)).EndInit();
             this.ResumeLayout(false);
 
         }

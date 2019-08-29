@@ -1,4 +1,4 @@
-﻿namespace MAC.WindowsApp
+﻿namespace SAA
 {
     partial class TelaPrincipal
     {
@@ -34,6 +34,13 @@
             this.labelTextoRodape = new System.Windows.Forms.Label();
             this.openFileDialogAddApp = new System.Windows.Forms.OpenFileDialog();
             this.tableLayoutPanelApps = new System.Windows.Forms.TableLayoutPanel();
+            this.splitContainerVApps = new System.Windows.Forms.SplitContainer();
+            this.splitContainerVMenu = new System.Windows.Forms.SplitContainer();
+            this.splitContainerHMenuApp = new System.Windows.Forms.SplitContainer();
+            this.splitContainerHFundo = new System.Windows.Forms.SplitContainer();
+            this.botaoFechar = new System.Windows.Forms.Button();
+            this.botaoMenu = new System.Windows.Forms.Button();
+            this.botaoAddApp = new System.Windows.Forms.Button();
             this.botao8 = new System.Windows.Forms.Button();
             this.botao7 = new System.Windows.Forms.Button();
             this.botao6 = new System.Windows.Forms.Button();
@@ -42,13 +49,6 @@
             this.botao3 = new System.Windows.Forms.Button();
             this.botao2 = new System.Windows.Forms.Button();
             this.botao1 = new System.Windows.Forms.Button();
-            this.splitContainerVApps = new System.Windows.Forms.SplitContainer();
-            this.botaoAddApp = new System.Windows.Forms.Button();
-            this.splitContainerVMenu = new System.Windows.Forms.SplitContainer();
-            this.botaoFechar = new System.Windows.Forms.Button();
-            this.botaoMenu = new System.Windows.Forms.Button();
-            this.splitContainerHMenuApp = new System.Windows.Forms.SplitContainer();
-            this.splitContainerHFundo = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanelApps.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerVApps)).BeginInit();
             this.splitContainerVApps.Panel1.SuspendLayout();
@@ -80,7 +80,7 @@
             this.labelTextoRodape.Name = "labelTextoRodape";
             this.labelTextoRodape.Size = new System.Drawing.Size(800, 33);
             this.labelTextoRodape.TabIndex = 0;
-            this.labelTextoRodape.Text = "Mouse Além da Cabeça - MAC ver. 3.0. Todos os direitos reservados ®.\r\n";
+            this.labelTextoRodape.Text = "Software Auxiliar Assistivo - SAA ver. 3.0.";
             this.labelTextoRodape.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // openFileDialogAddApp
@@ -118,134 +118,6 @@
             this.tableLayoutPanelApps.Size = new System.Drawing.Size(618, 364);
             this.tableLayoutPanelApps.TabIndex = 0;
             // 
-            // botao8
-            // 
-            this.botao8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao8.FlatAppearance.BorderSize = 0;
-            this.botao8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao8.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao8.Location = new System.Drawing.Point(542, 3);
-            this.botao8.Name = "botao8";
-            this.botao8.Size = new System.Drawing.Size(73, 358);
-            this.botao8.TabIndex = 0;
-            this.botao8.Text = "Slot Vazio";
-            this.botao8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao8.UseVisualStyleBackColor = true;
-            this.botao8.Click += new System.EventHandler(this.Botao8_Click);
-            // 
-            // botao7
-            // 
-            this.botao7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao7.FlatAppearance.BorderSize = 0;
-            this.botao7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao7.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao7.Location = new System.Drawing.Point(465, 3);
-            this.botao7.Name = "botao7";
-            this.botao7.Size = new System.Drawing.Size(71, 358);
-            this.botao7.TabIndex = 1;
-            this.botao7.Text = "Slot Vazio";
-            this.botao7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao7.UseVisualStyleBackColor = true;
-            this.botao7.Click += new System.EventHandler(this.Botao7_Click);
-            // 
-            // botao6
-            // 
-            this.botao6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao6.FlatAppearance.BorderSize = 0;
-            this.botao6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao6.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao6.Location = new System.Drawing.Point(388, 3);
-            this.botao6.Name = "botao6";
-            this.botao6.Size = new System.Drawing.Size(71, 358);
-            this.botao6.TabIndex = 2;
-            this.botao6.Text = "Slot Vazio";
-            this.botao6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao6.UseVisualStyleBackColor = true;
-            this.botao6.Click += new System.EventHandler(this.Botao6_Click);
-            // 
-            // botao5
-            // 
-            this.botao5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao5.FlatAppearance.BorderSize = 0;
-            this.botao5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao5.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao5.Location = new System.Drawing.Point(311, 3);
-            this.botao5.Name = "botao5";
-            this.botao5.Size = new System.Drawing.Size(71, 358);
-            this.botao5.TabIndex = 3;
-            this.botao5.Text = "Slot Vazio";
-            this.botao5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao5.UseVisualStyleBackColor = true;
-            this.botao5.Click += new System.EventHandler(this.Botao5_Click);
-            // 
-            // botao4
-            // 
-            this.botao4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao4.FlatAppearance.BorderSize = 0;
-            this.botao4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao4.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao4.Location = new System.Drawing.Point(234, 3);
-            this.botao4.Name = "botao4";
-            this.botao4.Size = new System.Drawing.Size(71, 358);
-            this.botao4.TabIndex = 4;
-            this.botao4.Text = "Slot Vazio";
-            this.botao4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao4.UseVisualStyleBackColor = true;
-            this.botao4.Click += new System.EventHandler(this.Botao4_Click);
-            // 
-            // botao3
-            // 
-            this.botao3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao3.FlatAppearance.BorderSize = 0;
-            this.botao3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao3.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao3.Location = new System.Drawing.Point(157, 3);
-            this.botao3.Name = "botao3";
-            this.botao3.Size = new System.Drawing.Size(71, 358);
-            this.botao3.TabIndex = 5;
-            this.botao3.Text = "Slot Vazio";
-            this.botao3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao3.UseVisualStyleBackColor = true;
-            this.botao3.Click += new System.EventHandler(this.Botao3_Click);
-            // 
-            // botao2
-            // 
-            this.botao2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao2.FlatAppearance.BorderSize = 0;
-            this.botao2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao2.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao2.Location = new System.Drawing.Point(80, 3);
-            this.botao2.Name = "botao2";
-            this.botao2.Size = new System.Drawing.Size(71, 358);
-            this.botao2.TabIndex = 6;
-            this.botao2.Text = "Slot Vazio";
-            this.botao2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao2.UseVisualStyleBackColor = true;
-            this.botao2.Click += new System.EventHandler(this.Botao2_Click);
-            // 
-            // botao1
-            // 
-            this.botao1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botao1.FlatAppearance.BorderSize = 0;
-            this.botao1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botao1.Image = global::MAC.WindowsApp.Properties.Resources.baseline_cancel_presentation_black_48dp;
-            this.botao1.Location = new System.Drawing.Point(3, 3);
-            this.botao1.Name = "botao1";
-            this.botao1.Size = new System.Drawing.Size(71, 358);
-            this.botao1.TabIndex = 7;
-            this.botao1.Text = "Slot Vazio";
-            this.botao1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botao1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botao1.UseVisualStyleBackColor = true;
-            this.botao1.Click += new System.EventHandler(this.Botao1_Click);
-            // 
             // splitContainerVApps
             // 
             this.splitContainerVApps.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -265,25 +137,6 @@
             this.splitContainerVApps.SplitterDistance = 178;
             this.splitContainerVApps.TabIndex = 0;
             // 
-            // botaoAddApp
-            // 
-            this.botaoAddApp.BackColor = System.Drawing.SystemColors.Control;
-            this.botaoAddApp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botaoAddApp.FlatAppearance.BorderSize = 0;
-            this.botaoAddApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoAddApp.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoAddApp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.botaoAddApp.Image = global::MAC.WindowsApp.Properties.Resources.outline_add_box_black_48dp;
-            this.botaoAddApp.Location = new System.Drawing.Point(0, 0);
-            this.botaoAddApp.Name = "botaoAddApp";
-            this.botaoAddApp.Size = new System.Drawing.Size(178, 364);
-            this.botaoAddApp.TabIndex = 0;
-            this.botaoAddApp.Text = "Add";
-            this.botaoAddApp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.botaoAddApp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.botaoAddApp.UseVisualStyleBackColor = false;
-            this.botaoAddApp.Click += new System.EventHandler(this.BotaoAddApp_Click);
-            // 
             // splitContainerVMenu
             // 
             this.splitContainerVMenu.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -302,36 +155,6 @@
             this.splitContainerVMenu.Size = new System.Drawing.Size(800, 45);
             this.splitContainerVMenu.SplitterDistance = 651;
             this.splitContainerVMenu.TabIndex = 0;
-            // 
-            // botaoFechar
-            // 
-            this.botaoFechar.BackColor = System.Drawing.Color.Firebrick;
-            this.botaoFechar.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botaoFechar.FlatAppearance.BorderSize = 0;
-            this.botaoFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoFechar.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaoFechar.ForeColor = System.Drawing.Color.White;
-            this.botaoFechar.Image = global::MAC.WindowsApp.Properties.Resources.baseline_clear_white_24dp;
-            this.botaoFechar.Location = new System.Drawing.Point(0, 0);
-            this.botaoFechar.Name = "botaoFechar";
-            this.botaoFechar.Size = new System.Drawing.Size(651, 45);
-            this.botaoFechar.TabIndex = 0;
-            this.botaoFechar.UseVisualStyleBackColor = false;
-            this.botaoFechar.Click += new System.EventHandler(this.BotaoFechar_Click);
-            // 
-            // botaoMenu
-            // 
-            this.botaoMenu.BackColor = System.Drawing.Color.RoyalBlue;
-            this.botaoMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.botaoMenu.FlatAppearance.BorderSize = 0;
-            this.botaoMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.botaoMenu.Image = global::MAC.WindowsApp.Properties.Resources.baseline_widgets_white_24dp1;
-            this.botaoMenu.Location = new System.Drawing.Point(0, 0);
-            this.botaoMenu.Name = "botaoMenu";
-            this.botaoMenu.Size = new System.Drawing.Size(145, 45);
-            this.botaoMenu.TabIndex = 0;
-            this.botaoMenu.UseVisualStyleBackColor = false;
-            this.botaoMenu.Click += new System.EventHandler(this.BotaoMenu_Click);
             // 
             // splitContainerHMenuApp
             // 
@@ -373,6 +196,183 @@
             this.splitContainerHFundo.SplitterDistance = 413;
             this.splitContainerHFundo.TabIndex = 1;
             // 
+            // botaoFechar
+            // 
+            this.botaoFechar.BackColor = System.Drawing.Color.Firebrick;
+            this.botaoFechar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botaoFechar.FlatAppearance.BorderSize = 0;
+            this.botaoFechar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoFechar.Font = new System.Drawing.Font("Arial Narrow", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoFechar.ForeColor = System.Drawing.Color.White;
+            this.botaoFechar.Image = global::SAA.Properties.Resources.baseline_clear_white_24dp;
+            this.botaoFechar.Location = new System.Drawing.Point(0, 0);
+            this.botaoFechar.Name = "botaoFechar";
+            this.botaoFechar.Size = new System.Drawing.Size(651, 45);
+            this.botaoFechar.TabIndex = 0;
+            this.botaoFechar.UseVisualStyleBackColor = false;
+            this.botaoFechar.Click += new System.EventHandler(this.BotaoFechar_Click);
+            // 
+            // botaoMenu
+            // 
+            this.botaoMenu.BackColor = System.Drawing.Color.RoyalBlue;
+            this.botaoMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botaoMenu.FlatAppearance.BorderSize = 0;
+            this.botaoMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoMenu.Image = global::SAA.Properties.Resources.baseline_widgets_white_24dp1;
+            this.botaoMenu.Location = new System.Drawing.Point(0, 0);
+            this.botaoMenu.Name = "botaoMenu";
+            this.botaoMenu.Size = new System.Drawing.Size(145, 45);
+            this.botaoMenu.TabIndex = 0;
+            this.botaoMenu.UseVisualStyleBackColor = false;
+            this.botaoMenu.Click += new System.EventHandler(this.BotaoMenu_Click);
+            // 
+            // botaoAddApp
+            // 
+            this.botaoAddApp.BackColor = System.Drawing.SystemColors.Control;
+            this.botaoAddApp.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botaoAddApp.FlatAppearance.BorderSize = 0;
+            this.botaoAddApp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botaoAddApp.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botaoAddApp.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.botaoAddApp.Image = global::SAA.Properties.Resources.outline_add_box_black_48dp;
+            this.botaoAddApp.Location = new System.Drawing.Point(0, 0);
+            this.botaoAddApp.Name = "botaoAddApp";
+            this.botaoAddApp.Size = new System.Drawing.Size(178, 364);
+            this.botaoAddApp.TabIndex = 0;
+            this.botaoAddApp.Text = "Add";
+            this.botaoAddApp.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botaoAddApp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botaoAddApp.UseVisualStyleBackColor = false;
+            this.botaoAddApp.Click += new System.EventHandler(this.BotaoAddApp_Click);
+            // 
+            // botao8
+            // 
+            this.botao8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao8.FlatAppearance.BorderSize = 0;
+            this.botao8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao8.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao8.Location = new System.Drawing.Point(542, 3);
+            this.botao8.Name = "botao8";
+            this.botao8.Size = new System.Drawing.Size(73, 358);
+            this.botao8.TabIndex = 0;
+            this.botao8.Text = "Slot Vazio";
+            this.botao8.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao8.UseVisualStyleBackColor = true;
+            this.botao8.Click += new System.EventHandler(this.Botao8_Click);
+            // 
+            // botao7
+            // 
+            this.botao7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao7.FlatAppearance.BorderSize = 0;
+            this.botao7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao7.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao7.Location = new System.Drawing.Point(465, 3);
+            this.botao7.Name = "botao7";
+            this.botao7.Size = new System.Drawing.Size(71, 358);
+            this.botao7.TabIndex = 1;
+            this.botao7.Text = "Slot Vazio";
+            this.botao7.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao7.UseVisualStyleBackColor = true;
+            this.botao7.Click += new System.EventHandler(this.Botao7_Click);
+            // 
+            // botao6
+            // 
+            this.botao6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao6.FlatAppearance.BorderSize = 0;
+            this.botao6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao6.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao6.Location = new System.Drawing.Point(388, 3);
+            this.botao6.Name = "botao6";
+            this.botao6.Size = new System.Drawing.Size(71, 358);
+            this.botao6.TabIndex = 2;
+            this.botao6.Text = "Slot Vazio";
+            this.botao6.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao6.UseVisualStyleBackColor = true;
+            this.botao6.Click += new System.EventHandler(this.Botao6_Click);
+            // 
+            // botao5
+            // 
+            this.botao5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao5.FlatAppearance.BorderSize = 0;
+            this.botao5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao5.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao5.Location = new System.Drawing.Point(311, 3);
+            this.botao5.Name = "botao5";
+            this.botao5.Size = new System.Drawing.Size(71, 358);
+            this.botao5.TabIndex = 3;
+            this.botao5.Text = "Slot Vazio";
+            this.botao5.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao5.UseVisualStyleBackColor = true;
+            this.botao5.Click += new System.EventHandler(this.Botao5_Click);
+            // 
+            // botao4
+            // 
+            this.botao4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao4.FlatAppearance.BorderSize = 0;
+            this.botao4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao4.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao4.Location = new System.Drawing.Point(234, 3);
+            this.botao4.Name = "botao4";
+            this.botao4.Size = new System.Drawing.Size(71, 358);
+            this.botao4.TabIndex = 4;
+            this.botao4.Text = "Slot Vazio";
+            this.botao4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao4.UseVisualStyleBackColor = true;
+            this.botao4.Click += new System.EventHandler(this.Botao4_Click);
+            // 
+            // botao3
+            // 
+            this.botao3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao3.FlatAppearance.BorderSize = 0;
+            this.botao3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao3.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao3.Location = new System.Drawing.Point(157, 3);
+            this.botao3.Name = "botao3";
+            this.botao3.Size = new System.Drawing.Size(71, 358);
+            this.botao3.TabIndex = 5;
+            this.botao3.Text = "Slot Vazio";
+            this.botao3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao3.UseVisualStyleBackColor = true;
+            this.botao3.Click += new System.EventHandler(this.Botao3_Click);
+            // 
+            // botao2
+            // 
+            this.botao2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao2.FlatAppearance.BorderSize = 0;
+            this.botao2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao2.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao2.Location = new System.Drawing.Point(80, 3);
+            this.botao2.Name = "botao2";
+            this.botao2.Size = new System.Drawing.Size(71, 358);
+            this.botao2.TabIndex = 6;
+            this.botao2.Text = "Slot Vazio";
+            this.botao2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao2.UseVisualStyleBackColor = true;
+            this.botao2.Click += new System.EventHandler(this.Botao2_Click);
+            // 
+            // botao1
+            // 
+            this.botao1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.botao1.FlatAppearance.BorderSize = 0;
+            this.botao1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botao1.Image = global::SAA.Properties.Resources.baseline_cancel_presentation_black_48dp;
+            this.botao1.Location = new System.Drawing.Point(3, 3);
+            this.botao1.Name = "botao1";
+            this.botao1.Size = new System.Drawing.Size(71, 358);
+            this.botao1.TabIndex = 7;
+            this.botao1.Text = "Slot Vazio";
+            this.botao1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.botao1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.botao1.UseVisualStyleBackColor = true;
+            this.botao1.Click += new System.EventHandler(this.Botao1_Click);
+            // 
             // TelaPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -386,7 +386,7 @@
             this.MinimizeBox = false;
             this.Name = "TelaPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Mouse Além da Cabeça";
+            this.Text = "Software Auxiliar Assistivo";
             this.TopMost = true;
             this.Load += new System.EventHandler(this.TelaPrincipal_Load);
             this.tableLayoutPanelApps.ResumeLayout(false);

@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAC.WindowsApp", "MAC.WindowsApp\MAC.WindowsApp.csproj", "{0BEA1811-511B-4089-ADC4-E44905561D0F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAA", "MAC.WindowsApp\SAA.csproj", "{0BEA1811-511B-4089-ADC4-E44905561D0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAC.Dominio", "MAC.Dominio\MAC.Dominio.csproj", "{F94AD9D4-496C-4C3F-B99C-7E29267DEDD1}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MAC_SETUP", "MAC_SETUP\MAC_SETUP.vdproj", "{F778744C-3419-4923-B1E4-1996BB5B7F2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAA.Dominio", "MAC.Dominio\SAA.Dominio.csproj", "{F94AD9D4-496C-4C3F-B99C-7E29267DEDD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,12 +41,6 @@ Global
 		{F94AD9D4-496C-4C3F-B99C-7E29267DEDD1}.Release|x64.Build.0 = Release|Any CPU
 		{F94AD9D4-496C-4C3F-B99C-7E29267DEDD1}.Release|x86.ActiveCfg = Release|Any CPU
 		{F94AD9D4-496C-4C3F-B99C-7E29267DEDD1}.Release|x86.Build.0 = Release|Any CPU
-		{F778744C-3419-4923-B1E4-1996BB5B7F2B}.Debug|Any CPU.ActiveCfg = Debug
-		{F778744C-3419-4923-B1E4-1996BB5B7F2B}.Debug|x64.ActiveCfg = Debug
-		{F778744C-3419-4923-B1E4-1996BB5B7F2B}.Debug|x86.ActiveCfg = Debug
-		{F778744C-3419-4923-B1E4-1996BB5B7F2B}.Release|Any CPU.ActiveCfg = Release
-		{F778744C-3419-4923-B1E4-1996BB5B7F2B}.Release|x64.ActiveCfg = Release
-		{F778744C-3419-4923-B1E4-1996BB5B7F2B}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
