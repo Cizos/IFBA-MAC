@@ -1,2 +1,2 @@
-# IFBA-MAC
-Projeto Mouse Além da Cabeça
+# IFBA-SAA
+Projeto Software Assistência Assistiva
