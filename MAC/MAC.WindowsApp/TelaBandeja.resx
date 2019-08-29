@@ -123,6 +123,24 @@
   <data name="materialLabelSlots.Text" xml:space="preserve">
     <value>Nós tambem decidimos que 8 (oito) slots para armazenar suas aplicações mais utilizadas seriam o suficiente, infelizmente nesse momento nao podemos disponibilizar a possibilidade de alteração desta quantidade, mas quem sabe em uma próxima atualização.</value>
   </data>
+  <data name="labelAboutUs.Text" xml:space="preserve">
+    <value>Pesquisadores desenvolvedores
+
+Perris, P.A.R, pauloperris@ifba.edu.br
+Almeida, R.S.B, rubyran.rubiran@gmail.com
+Oliveira, A.J.M, axeljo77@hotmail.com
+Valois, A.A.B, valois.antonioaugusto@gmail.com
+Mendes, A.K.A,
+antonio.keven11@gmail.com
+Amaral, D.M, ddaniellma@gmail.com
+Oliveira, E.P, eduarte.po@hotmail.com
+Freitas, T.S talesfreitas27@gmail.com
+Amaral, D.M, deive_m.a@hotmail.com
+Alisson, S.O.D, bejd2013@gmail.com
+Tarcisio, S.M. tarcisiosmaia@live.com
+
+Licensed by Creative Commons Я</value>
+  </data>
   <metadata name="notifyIconBandeja.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

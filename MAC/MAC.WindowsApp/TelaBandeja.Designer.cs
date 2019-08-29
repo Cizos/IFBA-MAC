@@ -54,7 +54,6 @@
             this.tabPageAboutUs = new System.Windows.Forms.TabPage();
             this.splitContainerAboutUs = new System.Windows.Forms.SplitContainer();
             this.pictureBoxAboutUs = new System.Windows.Forms.PictureBox();
-            this.materialLabelAboutUs = new MaterialSkin.Controls.MaterialLabel();
             this.materialFlatButtonSalvar = new MaterialSkin.Controls.MaterialFlatButton();
             this.panelBaixo = new System.Windows.Forms.Panel();
             this.labelAviso = new System.Windows.Forms.Label();
@@ -63,6 +62,8 @@
             this.toolStripMenuItemMostrar = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripMenuItemFechar = new System.Windows.Forms.ToolStripMenuItem();
+            this.flowLayoutPanelAboutUs = new System.Windows.Forms.FlowLayoutPanel();
+            this.labelAboutUs = new System.Windows.Forms.Label();
             this.panelSuperior.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxIconeApp)).BeginInit();
             this.materialTabControlOpcoes.SuspendLayout();
@@ -92,6 +93,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAboutUs)).BeginInit();
             this.panelBaixo.SuspendLayout();
             this.contextMenuStripBandeja.SuspendLayout();
+            this.flowLayoutPanelAboutUs.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelSuperior
@@ -395,7 +397,7 @@
             // 
             // splitContainerAboutUs.Panel2
             // 
-            this.splitContainerAboutUs.Panel2.Controls.Add(this.materialLabelAboutUs);
+            this.splitContainerAboutUs.Panel2.Controls.Add(this.flowLayoutPanelAboutUs);
             this.splitContainerAboutUs.Size = new System.Drawing.Size(792, 212);
             this.splitContainerAboutUs.SplitterDistance = 205;
             this.splitContainerAboutUs.TabIndex = 0;
@@ -410,20 +412,6 @@
             this.pictureBoxAboutUs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBoxAboutUs.TabIndex = 0;
             this.pictureBoxAboutUs.TabStop = false;
-            // 
-            // materialLabelAboutUs
-            // 
-            this.materialLabelAboutUs.Depth = 0;
-            this.materialLabelAboutUs.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialLabelAboutUs.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabelAboutUs.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabelAboutUs.Location = new System.Drawing.Point(0, 0);
-            this.materialLabelAboutUs.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabelAboutUs.Name = "materialLabelAboutUs";
-            this.materialLabelAboutUs.Size = new System.Drawing.Size(583, 212);
-            this.materialLabelAboutUs.TabIndex = 0;
-            this.materialLabelAboutUs.Text = "...";
-            this.materialLabelAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // materialFlatButtonSalvar
             // 
@@ -502,6 +490,26 @@
             this.toolStripMenuItemFechar.Text = "Fechar";
             this.toolStripMenuItemFechar.Click += new System.EventHandler(this.ToolStripMenuItemFechar_Click);
             // 
+            // flowLayoutPanelAboutUs
+            // 
+            this.flowLayoutPanelAboutUs.AutoScroll = true;
+            this.flowLayoutPanelAboutUs.Controls.Add(this.labelAboutUs);
+            this.flowLayoutPanelAboutUs.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.flowLayoutPanelAboutUs.Location = new System.Drawing.Point(0, 0);
+            this.flowLayoutPanelAboutUs.Name = "flowLayoutPanelAboutUs";
+            this.flowLayoutPanelAboutUs.Size = new System.Drawing.Size(583, 212);
+            this.flowLayoutPanelAboutUs.TabIndex = 0;
+            // 
+            // labelAboutUs
+            // 
+            this.labelAboutUs.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelAboutUs.Location = new System.Drawing.Point(3, 0);
+            this.labelAboutUs.Name = "labelAboutUs";
+            this.labelAboutUs.Size = new System.Drawing.Size(580, 348);
+            this.labelAboutUs.TabIndex = 0;
+            this.labelAboutUs.Text = resources.GetString("labelAboutUs.Text");
+            this.labelAboutUs.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // TelaBandeja
             // 
             this.AcceptButton = this.materialFlatButtonSalvar;
@@ -554,6 +562,7 @@
             this.panelBaixo.ResumeLayout(false);
             this.panelBaixo.PerformLayout();
             this.contextMenuStripBandeja.ResumeLayout(false);
+            this.flowLayoutPanelAboutUs.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -584,7 +593,6 @@
         private System.Windows.Forms.TabPage tabPageAboutUs;
         private System.Windows.Forms.SplitContainer splitContainerAboutUs;
         private System.Windows.Forms.PictureBox pictureBoxAboutUs;
-        private MaterialSkin.Controls.MaterialLabel materialLabelAboutUs;
         private MaterialSkin.Controls.MaterialFlatButton materialFlatButtonSalvar;
         private System.Windows.Forms.Panel panelBaixo;
         private System.Windows.Forms.NotifyIcon notifyIconBandeja;
@@ -593,5 +601,7 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemFechar;
         private System.Windows.Forms.Label labelAviso;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanelAboutUs;
+        private System.Windows.Forms.Label labelAboutUs;
     }
 }
